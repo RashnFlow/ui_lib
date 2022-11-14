@@ -1,4 +1,6 @@
-import { Button } from "@webmens-ru/ui_lib";
+// import { Button } from "@webmens-ru/ui_lib";
+import React from "react";
+import { Button } from "../../button";
 import { useShowControl } from "../hooks/useShowControl";
 import { useCustomContext } from "../store/Context";
 import { AddFieldsMenu, FilterMenuFooter } from "../styles";

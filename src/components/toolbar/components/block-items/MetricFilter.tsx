@@ -1,16 +1,13 @@
 import React from "react";
-import Badge, { IBadgeTypes } from "../../../badge";
+import Badge from "../../../badge";
 import { MetricFilterContainer } from "../../styles";
 import { IBlockItemMetricFilter, IBlockItemPropsGeneric } from "../../types";
 
-interface IMetricFilterProps extends IBlockItemPropsGeneric<IBlockItemMetricFilter> {
-  color?: IBadgeTypes
-}
 
-export function MetricFilter({ blockItem, color, onClick, key }: IMetricFilterProps) {
+export function MetricFilter({ blockItem, onClick, key }: IBlockItemPropsGeneric<IBlockItemMetricFilter>) {
   return (
     <MetricFilterContainer key={key} title={blockItem.title} onClick={() => onClick(blockItem)} >
-      <Badge count={blockItem.value} type={color} />
+      <Badge count={blockItem.value} type={blockItem.params.color} />
       <span>{blockItem.title}</span>
     </MetricFilterContainer>
   )

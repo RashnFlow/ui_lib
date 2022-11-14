@@ -1,3 +1,4 @@
+import React from 'react';
 import { LeftColumn } from './components/LeftColumn';
 import { RightColumn } from './components/RightColumn';
 import { useShowControl } from './hooks/useShowControl';

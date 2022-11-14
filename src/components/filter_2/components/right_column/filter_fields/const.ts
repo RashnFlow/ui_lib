@@ -84,93 +84,93 @@ export type TDateDropDown = {
 export const dateDropDown = [
   {
     title: 'Любая дата',
-    value: 'anyDate',
+    value: 'anyDate'
   },
   {
     title: 'Вчера',
-    value: 'yesterday',
+    value: 'yesterday'
   },
   {
     title: 'Сегодня',
-    value: 'today',
+    value: 'today'
   },
   {
     title: 'Завтра',
-    value: 'tomorrow',
+    value: 'tomorrow'
   },
   {
     title: 'Текущая неделя',
-    value: 'currentWeek',
+    value: 'currentWeek'
   },
   {
     title: 'Текущий месяц',
-    value: 'currentMonth',
+    value: 'currentMonth'
   },
   {
     title: 'Текущий квартал',
-    value: 'currentQuarter',
+    value: 'currentQuarter'
   },
   {
     title: 'Последние 7 дней',
-    value: 'last7Days',
+    value: 'last7Days'
   },
   {
     title: 'Последние 30 дней',
-    value: 'last30Days',
+    value: 'last30Days'
   },
   {
     title: 'Последние 60 дней',
-    value: 'last60Days',
+    value: 'last60Days'
   },
   {
     title: 'Последние 90 дней',
-    value: 'last90Days',
+    value: 'last90Days'
   },
   {
     title: 'Последние N дней',
-    value: 'lastNDays',
+    value: 'lastNDays'
   },
   {
     title: 'Следующие N дней',
-    value: 'nextNDays',
+    value: 'nextNDays'
   },
   {
     title: 'Следующая неделя',
-    value: 'nextWeek',
+    value: 'nextWeek'
   },
   {
     title: 'Следующий месяц',
-    value: 'nextMonth',
+    value: 'nextMonth'
   },
   {
     title: 'Месяц',
-    value: 'month',
+    value: 'month'
   },
   {
     title: 'Квартал',
-    value: 'quarter',
+    value: 'quarter'
   },
   {
     title: 'Год',
-    value: 'year',
+    value: 'year'
   },
   {
     title: 'Точная дата',
-    value: 'exactDate',
+    value: 'exactDate'
   },
   {
     title: 'Прошлая неделя',
-    value: 'lastWeek',
+    value: 'lastWeek'
   },
   {
     title: 'Прошлый месяц',
-    value: 'lastMonth',
+    value: 'lastMonth'
   },
   {
     title: 'Диапазон',
-    value: 'range',
+    value: 'range'
   },
-] as IDateFieldDataItem[];
+] as unknown as IDateFieldDataItem[];
 
 export const monthsDropDown = [
   { value: 1, title: 'Январь' },
